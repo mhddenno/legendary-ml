@@ -2,6 +2,7 @@
 
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import StandardScaler
 
 data = pd.DataFrame({
     "people": ['A', 'B', 'C'], 
@@ -61,3 +62,20 @@ print(result)
 #   2      C  0.000000  0.0
 
 ## Standardization
+
+result=data
+# Initialize StandardScaler
+scaler = StandardScaler()
+
+# Fit and transform the DataFrame
+result = pd.DataFrame(scaler.fit_transform(data[['salary', 'age']]))
+
+print(result)
+
+# OR
+
+result=data
+# Standardize the DataFrame using pandas
+result = (result[['salary', 'age']] - result[['salary', 'age']].mean()) / result[['salary', 'age']].std()
+
+print(result)
