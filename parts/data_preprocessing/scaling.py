@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import pandas as ps
+import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 data = pd.DataFrame({
@@ -9,9 +9,16 @@ data = pd.DataFrame({
     "age": [45,44,40]
 })
 
+print(data)
+
+#     people  salary  age
+#   0      A   70000   45
+#   1      B   60000   44
+#   2      C   52000   40
+
 ## Normalization
-c_1 = data[1]-data.min()[0]/data.max()[0]-data.min()[0]
-c_2 = data[2]-data.min()[1]/data.max()[1]-data.min()[1]
+c_1 = (data.iloc[:,1]-data.iloc[:,1].min())/(data.iloc[:,1].max()-data.iloc[:,1].min())
+c_2 = (data.iloc[:,2]-data.iloc[:,2].min())/(data.iloc[:,2].max()-data.iloc[:,2].min())
 
 result = pd.DataFrame({
     "people": ['A', 'B', 'C'], 
@@ -19,25 +26,38 @@ result = pd.DataFrame({
     "age": c_2
 })
 
+print(result)
+
 ## OR
 
 ## Using function
+result=data
 def normalize_column(column):
     min_val = column.min()
     max_val = column.max()
     normalized_column = (column - min_val) / (max_val - min_val)
     return normalized_column
 
-df["salary"] = normalize_column(df["salary"])
-df["age"] = normalize_column(df["age"])
+result["salary"] = normalize_column(data["salary"])
+result["age"] = normalize_column(data["age"])
+
+
+print(result)
 
 ## OR
 
 # Initialize MinMaxScaler
+result=data
 scaler = MinMaxScaler()
 
 # Normalize the "Salary" and "Age" columns
-df[["Salary", "Age"]] = scaler.fit_transform(df[["Salary", "Age"]])
+result[["salary", "age"]] = scaler.fit_transform(data[["salary", "age"]])
+print(result)
 
+# All results 
+#     people    salary  age
+#   0      A  1.000000  1.0
+#   1      B  0.444444  0.8
+#   2      C  0.000000  0.0
 
 ## Standardization
