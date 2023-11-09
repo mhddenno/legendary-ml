@@ -17,3 +17,5 @@
 
 * Calculate performance metrics
 * Make a verdict
+
+[Click here for more detailed process](parts/data_preprocessing/detailed_machine_learning_process.md)
