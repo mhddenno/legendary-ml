@@ -1,9 +1,10 @@
 <h3>  Importing the necessary libraries </h3> 
 
 ```
-import pandas as pd
-import numpy as np 
-import sklearn.model_selection as ms 
+import pandas as pd # data manipulation
+import numpy as np # numerical operations
+from sklearn.model_selection import train_test_split # for spliting
+from sklearn.impute import SimpleImputer # for missing data
 ```
 
 <h3> Loading the Iris dataset </h3> 
@@ -21,12 +22,6 @@ y = dataset.iloc[:,-1].values #dependent variables
 ```
 
 <h3> Taking care of missing </h3> 
-
-```
-import pandas as pd 
-import numpy as np
-from sklearn.impute import SimpleImputer
-```
 
 <h4> Load the dataset </h4>
 
@@ -59,6 +54,11 @@ dataset.iloc[:,0:9]=imputer.transform(dataset.iloc[:,0:9])
 ```
 <h3> Encoding categorical data </h3> 
 
-<h3> Encoding the Independent Variable </h3> 
+<h4> Encoding the Independent/Dependent Variable </h4> 
+[see here](./data_preprocessing/encoding.ipynb)
 
-<h3>  Encoding the Dependent Variable </h3> 
+<h3> Spliting </h3> 
+[see here](./data_preprocessing/spliting.ipynb)
+
+<h3> Sclaing </h3> 
+[see here](./data_preprocessing/scaling.ipynb)
