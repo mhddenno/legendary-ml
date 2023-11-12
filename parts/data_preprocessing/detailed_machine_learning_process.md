@@ -55,10 +55,13 @@ dataset.iloc[:,0:9]=imputer.transform(dataset.iloc[:,0:9])
 <h3> Encoding categorical data </h3> 
 
 <h4> Encoding the Independent/Dependent Variable </h4> 
+
 [see here](./data_preprocessing/encoding.ipynb)
 
 <h3> Spliting </h3> 
+
 [see here](./data_preprocessing/spliting.ipynb)
 
 <h3> Sclaing </h3> 
+
 [see here](./data_preprocessing/scaling.ipynb)
