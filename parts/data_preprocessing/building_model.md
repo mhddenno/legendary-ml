@@ -14,14 +14,14 @@
 
 * Select a significant level to stay in the model (sl = 0.005)
 * Fit the full model with all possible predictors
-* Consider the predictor with the highest [P-value](./p_values.md). If P > sl go to step 4, otherwise go to FIN
+* Consider the predictor with the highest [P-value](../statistics/p_value.md). If P > sl go to step 4, otherwise go to FIN
 * Remove the predictor
 * Fit model without this variable
 
 <h2> Forward Selection (Stepwise Regression) </h2>
 
 * Select a significance level to enter the model (sl = 0.05)
-* Fit all simple regression models $$ Y = X_{n} $$ Select the one with the lowest [P-value](./p_values.md)
+* Fit all simple regression models $$ Y = X_{n} $$ Select the one with the lowest [P-value](../statistics/p_value.md)
 * Keep this variable and fit all possible models with one extra predictor added to the one(s) you already have
 * Consider the predictor with the lowest P-value. If P < sl, go to Step 3, otherwise go to FIN (keep the previous model because the last varialbe is insignificant )
 
