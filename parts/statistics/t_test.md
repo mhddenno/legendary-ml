@@ -1,6 +1,7 @@
 <h1> T-Test </h1>
 
 A t-test is a statistical method used to determine if there is a significant difference between the means of two groups.
+[The relationship between p-value and t-value](./t_test.ipynb)
 
 1. Scenario
 

@@ -1,5 +1,6 @@
 <h1> P-Value </h1>
 
+[For introduction](./p_value_for_dummies.md)
 The p-value is a measure used in statistical hypothesis testing to determine the evidence against a null hypothesis.
 
 <h3> Statistical Hypothesis </h3>
