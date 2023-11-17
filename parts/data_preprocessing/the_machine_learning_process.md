@@ -9,7 +9,7 @@
 
 <h2> Modelling </h2>
 
-* Build the model
+* Build the model [click here for more details](./building_model.md)
 * Train the model
 * Make predictions
 
