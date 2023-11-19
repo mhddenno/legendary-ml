@@ -28,6 +28,7 @@
 - $$ y = b_{0} + b_{1} * X + b_{2} * X^2 + b_{3} * X^3 + ... + b_{n} * X^n $$
 - Attention the X is the same here ;)
 - Fun fact The linearity in this context refers to the parameters of the model, not the shape of the curve
+- For example [click here](./ploynomial_regression.ipynb)
 
 </h4>
 
