@@ -5,6 +5,7 @@
 **<h3> Simple Linear Regression </h3>**
 <h4>  
 
+- $$ y = b_{0} + b_{1} * X  $$
 - For example [click here](./linear_regression.ipynb)
 
 </h4>
@@ -12,6 +13,7 @@
 **<h3> Multiple Linear Regression </h3>**
 <h4>  
 
+- $$ y = b_{0} + b_{1} * X_{1} + b_{2} * X_{2} + b_{3} * X_{3} + ... + b_{n} * X_{n} $$
 - Scaling is not important because the *b0,b1, b3 ...* constants will play a compensation role in the equation.
 - We don't need to check for the linearity conditions because if there is a linear relationship in the data then the accuracy will be top, if not the accuracy will be bad. Why to bother and test that?
 - We don't need to get rid of the dummy variables (dummy variable trap) after encoding because the *regressor* will do that for us.
@@ -21,7 +23,13 @@
 </h4>
 
 **<h3> Polynomial Regression </h3>**
-<h3>  </h3>
+<h4>
+
+- $$ y = b_{0} + b_{1} * X + b_{2} * X^2 + b_{3} * X^3 + ... + b_{n} * X^n $$
+- Attention the X is the same here ;)
+- Fun fact The linearity in this context refers to the parameters of the model, not the shape of the curve
+
+</h4>
 
 **<h3> Support Vector for Regression (SVR) </h3>**
 <h3>  </h3>
