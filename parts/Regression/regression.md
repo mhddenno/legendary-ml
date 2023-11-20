@@ -35,7 +35,7 @@
 **<h3> Support Vector for Regression (SVR) </h3>**
 <h3>
 
-- The same concept of a linear regression line but it is a tube all points in the tube are excluded from the error calculations in other words it uses a loss function that penalizes deviations from the regression hyperplane. The loss function includes a term for both the deviation and the margin violations.
+- The same concept of a linear regression line but it is a tube (epsilon insensitive tube) all points in the tube are excluded from the error calculations in other words it uses a loss function that penalizes deviations from the regression hyperplane. The loss function includes a term for both the deviation and the margin violations.
 - It can be used for both classification and regression tasks.
 - SVM is less sensitive to outliers due to the use of a margin-based loss function.
 - SVM aims to find a hyperplane that best fits the data points in a higher-dimensional space.

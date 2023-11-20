@@ -12,6 +12,7 @@
 <h4>
 
 [click here](https://juliagaussianprocesses.github.io/KernelFunctions.jl/stable/kernels/)
+[and here](https://docs.juliahub.com/KernelFunctions/lEXCO/0.6.0/kernels/)
 
 </h4>
 
