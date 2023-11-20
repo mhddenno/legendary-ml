@@ -33,7 +33,17 @@
 </h4>
 
 **<h3> Support Vector for Regression (SVR) </h3>**
-<h3>  </h3>
+<h3>
+
+- The same concept of a linear regression line but it is a tube all points in the tube are excluded from the error calculations in other words it uses a loss function that penalizes deviations from the regression hyperplane. The loss function includes a term for both the deviation and the margin violations.
+- It can be used for both classification and regression tasks.
+- SVM is less sensitive to outliers due to the use of a margin-based loss function.
+- SVM aims to find a hyperplane that best fits the data points in a higher-dimensional space.
+- SVM model aims to find a hyperplane that maximizes the margin between different classes or fits the data points in the case of regression. 
+- SVM can use different types of kernels to capture non-linear relationships For more [click here](./svm.md).
+- For example [click here](./svm_regression.ipynb).
+
+</h3>
 
 **<h3> Decision Tree Regression </h3>**
 <h3>  </h3>
