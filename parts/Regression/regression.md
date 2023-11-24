@@ -61,5 +61,19 @@
 
 </h3>
 
-**<h3> Random Forest Regression </h3>**
-<h3>  </h3>
+**<h3> Random Forest Regression (Ensemble Learning) </h3>**
+<h3>
+
+- Random Forest is an ensemble of decision trees, where multiple trees are built and combined to improve the overall predictive performance.
+- The algorithm creates multiple random subsets of the training data (with replacement) to train individual decision trees Bagging (Bootstrap Aggregating).
+- Random Feature Selection: At each node of the decision tree, a random subset of features is considered for splitting. This helps to decorrelate the trees and reduce overfitting.
+- Tree Independence Each tree is constructed independently of the others, which enhances the diversity of the forest and prevents the model from being overly sensitive to specific patterns in the data.
+- Voting or Averaging For classification tasks, the final prediction is determined by a majority vote from all the individual trees. For regression tasks, the final prediction is the average of predictions from all trees.
+- Robust to Overfitting The combination of multiple trees and random feature selection makes Random Forest robust to overfitting, even on noisy datasets.
+- High Predictive Accuracy Random Forest tends to have high predictive accuracy and performs well on a wide range of tasks without requiring extensive hyperparameter tuning.
+- Feature Importance Random Forest provides a measure of feature importance, indicating the contribution of each feature to the overall predictive performance of the model.
+- Parallelization Training individual trees in the forest can be done in parallel, making Random Forest efficient for large datasets.
+- Hyperparameters Important hyperparameters include the number of trees in the forest, the maximum depth of each tree, and the number of features considered at each split.
+- For example [click here](./random_forest.ipynb)
+
+</h3>
