@@ -56,6 +56,7 @@
 - Stopping conditions may include a maximum tree depth, a minimum number of samples in a leaf node, or a minimum improvement in the splitting criterion.
 - RT are robust against outliers because the spliting happens based on ranks rather values.
 - RT can be prone to overfitting, capturing noise in the training data, Techniques like pruning or using ensemble methods can help metigate this issue.
+- For example [click here](./regression_decision_tree.ipynb)
 - [DT](../../res/DT.pdf)
 
 </h3>
