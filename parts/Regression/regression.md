@@ -46,7 +46,19 @@
 </h3>
 
 **<h3> Decision Tree Regression </h3>**
-<h3>  </h3>
+<h3>
+
+- A tree built structure with leafs and nodes, built recursively splitting data into subsets based on the values of input features.
+- Terminal leafs represent the final output.
+- The decision on how to split the data at each node is based on a splitting criterion.
+- Common splitting criteria include mean squared error for regression tasks, which measures the variance of the target variable within each node.
+- The process of creating the tree involves recursively splitting the data into subsets until a stopping condition is met.
+- Stopping conditions may include a maximum tree depth, a minimum number of samples in a leaf node, or a minimum improvement in the splitting criterion.
+- RT are robust against outliers because the spliting happens based on ranks rather values.
+- RT can be prone to overfitting, capturing noise in the training data, Techniques like pruning or using ensemble methods can help metigate this issue.
+- [DT](../../res/DT.pdf)
+
+</h3>
 
 **<h3> Random Forest Regression </h3>**
 <h3>  </h3>
