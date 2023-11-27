@@ -80,6 +80,8 @@
 
 **<h3> Comparison </h3>**
 
+[Click here for practical example](./model_selection.ipynb)
+
 | Regression Model | Pros | Cons |
 | :---------------: | :---------------: | :---------------: |
 | Linear Regression    | Works on any size of dataset, gives informations about relevance of features | The Linear Regression Assumptions |
