@@ -45,6 +45,15 @@ where:
 </h3>
 
 **<h3> Naive Bayes </h3>**
+
+-   Naive Bayes describes the probability of an event based on prior knowledge of conditions that might be related to the event. (and that's why it is called Naive ==> we are assuming, we don't know!)
+-   The Naive comes from the assumption that features used to describe an observation are conditionally independent! given that class label. This is a simplifying assumption that makes algorithm computationally effcient.
+-   The assumption of feature independence simplifies the computation of probabilites. Even though theis assumption might not hold in reality, NB ofgen performs surprisingly well in practice.
+-   There are many varients of Naive Bayes (Multinomial NB commonly used for text classification), (Gaussian NB suitable for continuous data assuming the Gaussian distribution)
+-   NB is computationally efficient and scales well with the number of features. It requires a relatively small amout of training data to estimate the necessary parameters.
+-   NB is a powerful and simple algorithm, it may not perform well in situations where the independence assumption is strongly violated or when interactions between features significantly impact the outcome.
+-   Practical example [here](./naive_bayes.md)
+
 <h3>
 
 
