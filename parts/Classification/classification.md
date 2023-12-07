@@ -4,6 +4,8 @@
 
 **<h3> Logistic Regression </h3>**
 
+<h4>  
+
 -   Logistic Regression is a linear classifier. 
 -   Despite its name, logistic - regression is used for binary classification problems, where the output is a binary variable (e.g., 0 or 1, true or false).
 
@@ -14,13 +16,10 @@
 - $$  P(Y=1) = \frac{1}{1 + e^{-(b_0 + b_1x_1 + b_2x_2 + \ldots + b_nx_n)}}  $$
 
 where:
-- $$ \(P(Y=1)\) $$ is the probability of the event \(Y\) being class 1, 
-- $$ \(e\) $$ is the base of the natural logarithm,
-- $$ \(b_0, b_1, b_2, \ldots, b_n\) $$ are the coefficients,
-- $$ \(x_1, x_2, \ldots, x_n\) $$ are the input features.
-
-<h4>  
-
+- $ P(Y=1) $ is the probability of the event (Y) being class 1, 
+- $ (e) $ is the base of the natural logarithm,
+- $ (b_0, b_1, b_2, \ldots, b_n) $ are the coefficients,
+- $ (x_1, x_2, \ldots, x_n) $ are the input features.
 
 </h4>
 
@@ -46,6 +45,8 @@ where:
 
 **<h3> Naive Bayes </h3>**
 
+<h4>
+
 -   Naive Bayes describes the probability of an event based on prior knowledge of conditions that might be related to the event. (and that's why it is called Naive ==> we are assuming, we don't know!)
 -   The Naive comes from the assumption that features used to describe an observation are conditionally independent! given that class label. This is a simplifying assumption that makes algorithm computationally effcient.
 -   The assumption of feature independence simplifies the computation of probabilites. Even though theis assumption might not hold in reality, NB ofgen performs surprisingly well in practice.
@@ -54,10 +55,7 @@ where:
 -   NB is a powerful and simple algorithm, it may not perform well in situations where the independence assumption is strongly violated or when interactions between features significantly impact the outcome.
 -   Practical example [here](./naive_bayes.md)
 
-<h3>
-
-
-</h3>
+</h4>
 
 **<h3> Decision Tree Classification </h3>**
 <h3>
