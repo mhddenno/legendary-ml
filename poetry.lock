@@ -12,6 +12,16 @@ files = [
 ]
 
 [[package]]
+name = "apyori"
+version = "1.1.2"
+description = "Simple Apriori algorithm Implementation."
+optional = false
+python-versions = "*"
+files = [
+    {file = "apyori-1.1.2.tar.gz", hash = "sha256:e2e6ffcf14732b1b1432608cf83b81ac538243387b0458eb7d9296e770d462ec"},
+]
+
+[[package]]
 name = "asttokens"
 version = "2.4.1"
 description = "Annotate AST trees with source code positions"
@@ -1404,4 +1414,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "57ccfc05e9639674d581e0dc7fbae9a5eb4f144ed53e1b3a717e6ee325f58b09"
+content-hash = "418d48d63d64ece4bd1d5f02b2a09b616613a42f31b51e554243e6be9f0ebfa1"
