@@ -1,4 +1,4 @@
-<h1>R2 and adjusted R2</h1>
+<h1>R2 and adjusted R2 Used for Regression model evaluation</h1>
 <h3>
 R-squared (R2) and adjusted R-squared (adjusted R2) are both metrics used in regression analysis to evaluate the goodness of fit of a model. However, they serve slightly different purposes.
 </h3>
