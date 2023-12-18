@@ -1,0 +1,68 @@
+[
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "publisher": "Harper",
+      "isbn_10": "0062316095",
+      "isbn_13": "978-0062316097",
+      "price": 16.99,
+      "co_author":{
+        "name": "John Doe",
+        "age": 65
+      }
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "publisher": "Farrar, Straus and Giroux",
+      "isbn_10": "0374533555",
+      "isbn_13": "978-0374533557",
+      "price": 18.95,
+      "co_author": null
+    },
+    {
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "publisher": "HarperOne",
+      "isbn_10": "0062457713",
+      "isbn_13": "978-0062457714",
+      "price": 12.99,
+      "co_author":{
+        "name": "Jack Doe",
+        "age": 88
+      }
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "publisher": "Avery",
+      "isbn_10": "0735211299",
+      "isbn_13": "978-0735211292",
+      "price": 23.95,
+      "co_author":null
+    },
+    {
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "publisher": "Random House",
+      "isbn_10": "081298160X",
+      "isbn_13": "978-0812981605",
+      "price": 14.25,
+      "co_author":{
+        "name": "Mo Denno",
+        "age": 13
+      }
+    },
+    {
+      "title": "Educated",
+      "author": "Tara Westover",
+      "publisher": "Random House",
+      "isbn_10": "0399590501",
+      "isbn_13": "978-0399590504",
+      "price": 19.99,
+      "co_author":{
+        "name": "Fisito Denno",
+        "age": 25
+      }
+    }
+  ]
