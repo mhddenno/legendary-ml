@@ -62,8 +62,32 @@ class Topic(pydantic.BaseModel):
         except:
             ic('check_if_title_is_so_long')
         return values
+    
 
+    @pydantic.field_validator('isbn_10')
+    @classmethod    
+    def check_if_isbn10_is_valid(cls, value: str) -> None:
 
+        isbn_10=[c for c in value if c in '0123456789xX']
+        def check_leng(isbn:str):
+            if len(isbn) != 10:
+                raise ISBN10FormatError('Title is too long','sdf')
+            else:
+                return isbn
+
+        isbn_10 = check_leng(isbn_10)
+
+        def convert_char_to_int(el) -> int:
+            if el in 'xX':
+                return 10
+            else:
+                return int(el)
+        #pdb.set_trace()
+        if sum((10 - i) * convert_char_to_int(v) for i, v in enumerate(isbn_10)) % 11 != 0:
+            raise ISBN10FormatError('Title is too long','sdf')    
+
+        return value
+    
 
 
 def main() -> None:
