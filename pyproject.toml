@@ -26,6 +26,11 @@ rich = "^13.7.0"
 python-dotenv = "^1.0.0"
 gradio = "^4.12.0"
 streamlit = "^1.29.0"
+asyncio = "^3.4.3"
+jsonlines = "^4.0.0"
+datasets = "^2.16.1"
+lamini = "^2.0.4"
+llama2 = "0.0.1.dev0"
 
 
 [tool.poetry.group.dev.dependencies]
