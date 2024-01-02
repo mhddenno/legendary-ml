@@ -21,6 +21,8 @@
 | - |RAG misses, or gets incorrect data| - |
 | - |Generic, prototypes| Domain-specific|
 
+-   The concept of pretraining is especially common in transfer learning, where a model learns general features from one domain and transfers that knowledge to perform well on a different, but related, domain. For better understanding of pretraining [here](parts/large_language_model/basic_preparation.py)
+
 **<h4>Knowledge base embedding</h4>**
 -   creating embedding of vector database of all your knowledge, which can be also used as prompts to train the LLM
 -   Use case: if the customer wants to gain domain knowledge for example knowledge of financial market stats. Embedding is very acurate not like LLM but Embedding can be the source of training data for LLM.
