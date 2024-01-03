@@ -31,6 +31,7 @@ jsonlines = "^4.0.0"
 datasets = "^2.16.1"
 lamini = "^2.0.4"
 llama2 = "0.0.1.dev0"
+litellm = "^1.16.12"
 
 
 [tool.poetry.group.dev.dependencies]
