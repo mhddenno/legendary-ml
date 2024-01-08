@@ -33,6 +33,8 @@ lamini = "^2.0.4"
 llama2 = "0.0.1.dev0"
 litellm = "^1.16.12"
 tqdm = "^4.66.1"
+pylint = "^3.0.3"
+autopep8 = "^2.0.4"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 LEVELS: int = 10
 COLUMNS: int = 11
-BALLS: int = 100000
+BALLS: int = 10000
 
 
 def main() -> None:
@@ -15,7 +15,7 @@ def main() -> None:
                 break
             elif randint(0, 1):
                 init_column += 1
-            else: 
+            else:
                 init_column -= 1
         result[init_column] = result.get(init_column, 0) + 1
     plt.bar(result.keys(), result.values())
@@ -23,6 +23,7 @@ def main() -> None:
     plt.ylabel("Balls")
     plt.title("Distribution of balls in Galton borad")
     plt.show()
+
 
 if __name__ == "__main__":
     main()
