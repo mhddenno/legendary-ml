@@ -6,6 +6,26 @@ This video covers how the bridge pattern works and why it's useful. To spice thi
 
 ## Algorithms layer
 
+### 0 layer
+
+```mermaid
+mindmap
+  root((AI))
+    Classical Machine Learning
+      Topics
+        Regression
+        Classification
+        Clustering
+        Association Rule Learning
+        Reinforcement Learning
+        Dimensionality Reduction
+        Model Selection and Boosting
+    Deep Learning
+      Topics
+        Generative AI
+            LLMs
+```
+
 ### First layer
 
 ```mermaid
