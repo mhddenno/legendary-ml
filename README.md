@@ -6,120 +6,80 @@ This video covers how the bridge pattern works and why it's useful. To spice thi
 
 ## Algorithms layer
 
-### 0 layer
+### Classical Machine Learning layer
 
 ```mermaid
 mindmap
-  root((AI))
-    Classical Machine Learning
-      Topics
-        Regression
-        Classification
-        Clustering
-        Association Rule Learning
-        Reinforcement Learning
-        Dimensionality Reduction
-        Model Selection and Boosting
-    Deep Learning
-      Topics
-        Generative AI
-            LLMs
+  root((Classical Machine Learning))
+    Topics
+      Regression
+          Simple Linear Regression
+          Multiple Linear Regression
+          Polynomial Regression
+          Support Vector Regression (SVR)
+          Decision Tree Regression
+          Random Forest Regression
+      Classification
+          Logistic Regression
+          K-Nearest Neighbors (K-NN)
+          Support Vector Machine (SVM)
+          Kernel SVM
+          Naive Bayes
+          Decision Tree Classification
+          Random Forest Classification
+      Clustering
+          K-Means Clustering
+          Hierarchical Clustering
+      Association Rule Learning
+          Apriori
+          Eclat
+      Reinforcement Learning
+          Upper Confidence Bound (UCB)
+          Thompson Sampling
+      Dimensionality Reduction
+      Model Selection and Boosting
+    Tools
+      scikit-learn
 ```
 
-### First layer
+### Deep Learning layer
 
 ```mermaid
 mindmap
-  root((AI))
-    Classical Machine Learning
-      Topics
-        Regression
-        Classification
-        Clustering
-        Association Rule Learning
-        Reinforcement Learning
-        Dimensionality Reduction
-        Model Selection and Boosting
-      Tools
-        scikit-learn
-    Deep Learning
-      Topics
-        Generative AI
-            LLMs
-      Tools
-        Pytorch
-        Tenserflow
-        LangChain
-        HuggingFace
-        Lamini, Ollama
-    Use Cases
-      Spaces in Hugging Face
-      Langchain UCs
+  root((Deep Learning))
+    Topics
+      Neural Networks and Deep Neural Networks (DNNs)
+      Convolutional Neural Networks (CNNs)
+      Recurrent Neural Networks (RNNs)
+      Long Short-Term Memory (LSTM)
+      Gated Recurrent Unit (GRU)
+      Autoencoders
+      Generative Adversarial Networks (GANs)
+      Transfer Learning
+      Meta-Learning
+      Attention Mechanisms
+      Reinforcement Learning
+      Explainable AI (XAI)
+      Quantum Machine Learning
+      Capsule Networks
+      Neuroevolution
+      Generative AI
+          LLMs
+    Tools
+      Pytorch
+      Tenserflow
+      LangChain
+      HuggingFace
+      Lamini, Ollama
 ```
 
-### second layer
+### Use Cases layer
 
 ```mermaid
 mindmap
-  root((AI))
-    Classical Machine Learning
-      Topics
-        Regression
-            Simple Linear Regression
-            Multiple Linear Regression
-            Polynomial Regression
-            Support Vector Regression (SVR)
-            Decision Tree Regression
-            Random Forest Regression
-        Classification
-            Logistic Regression
-            K-Nearest Neighbors (K-NN)
-            Support Vector Machine (SVM)
-            Kernel SVM
-            Naive Bayes
-            Decision Tree Classification
-            Random Forest Classification
-        Clustering
-            K-Means Clustering
-            Hierarchical Clustering
-        Association Rule Learning
-            Apriori
-            Eclat
-        Reinforcement Learning
-            Upper Confidence Bound (UCB)
-            Thompson Sampling
-        Dimensionality Reduction
-        Model Selection and Boosting
-      Tools
-        scikit-learn
-    Deep Learning
-      Topics
-        Neural Networks and Deep Neural Networks (DNNs)
-        Convolutional Neural Networks (CNNs)
-        Recurrent Neural Networks (RNNs)
-        Long Short-Term Memory (LSTM)
-        Gated Recurrent Unit (GRU)
-        Autoencoders
-        Generative Adversarial Networks (GANs)
-        Transfer Learning
-        Meta-Learning
-        Attention Mechanisms
-        Reinforcement Learning
-        Explainable AI (XAI)
-        Quantum Machine Learning
-        Capsule Networks
-        Neuroevolution
-        Generative AI
-            LLMs
-      Tools
-        Pytorch
-        Tenserflow
-        LangChain
-        HuggingFace
-        Lamini, Ollama
-    Use Cases
-      Spaces in Hugging Face
-      Langchain UCs
+  root((Use Cases))
+    Spaces in Hugging Face
+    Langchain UCs
 ```
 
 ## Data layer
