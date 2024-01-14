@@ -57,6 +57,7 @@ where:
 </h4>
 
 **<h3> Support Vector Machine (SVM) </h3>**
+-   
 <h4>
 
 
