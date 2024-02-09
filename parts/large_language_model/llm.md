@@ -1,6 +1,20 @@
 **<h3> What is LLM ? </h3>**
 <h4> LLM is large language model in the context of natural language programing and example would be GPT-3 which is generative pre-trained Transformer 3 </h4>
 
+**<h3>How to prompt</h3>**
+Write clear and specific instructions
+- Use delimiters to clearly indicate distinct parts of the input
+- Ask for a structured output
+- Ask the model to check whether conditions are satisfied
+
+Give the model time to “think”
+- Specify the steps required to complete a task
+- Ask for output in a specified format
+- Instruct the model to work out its own solution before rushing to a conclusion
+
+[Examples](parts/large_language_model/prompting_examples.py)
+
+
 **<h3> How to tune LLM to perform on specific use cases </h3>**
 **<h4>Finetune</h4>**
 -   retrain the model with alot of data that you have. A practical example will be [here](./finetune_llm.ipynb)
